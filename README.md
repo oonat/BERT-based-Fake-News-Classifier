@@ -4,8 +4,32 @@ Fake News Classifier is a BERT-based model implemented as a part of my graduatio
 
 # How to Use
 
-## Installation
+## Dataset
+The data used in this repo were taken from the Kaggle. As I am not the owner of the data, I cannot store it in the repo. However, one can download the data by following the steps given below:
+1. Create a directory named **input** under the root directory.
+2. Create folders named **kaggle1**, **kaggle2**, **kaggle3**, and **kaggle4** under the **input** directory.
+3. Download the csv files from the Kaggle links shared below and save them under the corresponding directories:
+- **kaggle1** -> https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+- **kaggle2** -> https://www.kaggle.com/datasets/amirmotefaker/detecting-fake-news-dataset (_rename news.csv to Test.csv_)
+- **kaggle3** -> https://www.kaggle.com/datasets/marwaelsayedkhalil/fake-news-dataset
+- **kaggle4** -> https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
+The final folder structure should look like this:
+
+- inputs/
+  - kaggle1/
+    - Fake.csv
+    - True.csv
+  - kaggle2/
+    - Test.csv
+  - kaggle3/
+    - test.csv
+    - train.csv
+  - kaggle4/
+    - WELFake_Dataset.csv
+
+
+## Installation
 Before installing the required libraries, It is recommended to create a virtual environment.
 
 The libraries required for the project are listed in the **requirements.txt** file. To download and install the necessary libraries,
